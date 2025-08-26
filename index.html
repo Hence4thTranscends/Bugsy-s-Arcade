@@ -99,9 +99,14 @@
       color: #ffcc00;
       text-decoration: none;
     }
+    .info-hours {
+      display: flex;
+      gap: 3rem;
+      flex-wrap: wrap;
+      color: #ffcc00;
+    }
     .info-hours table {
       border-spacing: 0.5rem;
-      color: #ffcc00;
     }
     .gallery-section, .menu-section, .parties-section {
       background-color: #111;
@@ -192,15 +197,27 @@
         <a href="https://www.google.com/maps?q=2900+E+Lincolnway+Sterling+Illinois+61081" target="_blank">Get directions</a></p>
       </div>
       <div class="info-hours">
-        <table>
-          <tr><td>Monday</td><td>12:00 pm – 10:00 pm</td></tr>
-          <tr><td>Tuesday</td><td>12:00 pm – 10:00 pm</td></tr>
-          <tr><td>Wednesday</td><td>12:00 pm – 10:00 pm</td></tr>
-          <tr><td>Thursday</td><td>12:00 pm – 10:00 pm</td></tr>
-          <tr><td>Friday</td><td>12:00 pm – 12:00 am</td></tr>
-          <tr><td>Saturday</td><td>12:00 am – 1:00 am<br>12:00 pm – 12:00 am</td></tr>
-          <tr><td>Sunday</td><td>12:00 am – 1:00 am<br>12:00 pm – 10:00 pm</td></tr>
-        </table>
+        <!-- Store Hours Table -->
+        <div>
+          <h3 style="color: white; margin-bottom: 1rem;">Store Hours</h3>
+          <table>
+            <tr><td>Monday</td><td>12:00 pm – 10:00 pm</td></tr>
+            <tr><td>Tuesday</td><td>12:00 pm – 10:00 pm</td></tr>
+            <tr><td>Wednesday</td><td>12:00 pm – 10:00 pm</td></tr>
+            <tr><td>Thursday</td><td>12:00 pm – 10:00 pm</td></tr>
+            <tr><td>Friday</td><td>12:00 pm – 12:00 am</td></tr>
+            <tr><td>Saturday</td><td>12:00 am – 1:00 am<br>12:00 pm – 12:00 am</td></tr>
+            <tr><td>Sunday</td><td>12:00 am – 1:00 am<br>12:00 pm – 10:00 pm</td></tr>
+          </table>
+        </div>
+        <!-- Happy Hour Table -->
+        <div>
+          <h3 style="color: white; margin-bottom: 1rem;">Happy Hour</h3>
+          <table>
+            <tr><td>Monday</td><td>5:00 pm – 8:00 pm</td></tr>
+            <tr><td>Tuesday</td><td>5:00 pm – 8:00 pm</td></tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>
